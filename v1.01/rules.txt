@@ -1,0 +1,27 @@
+Acestea sunt urmatoarele comenzi disponibile:
+     [lf cale] arata toate fisierele dintr-un folder.
+     [run cale] deschide fisierul din cale 1.
+     [cp cale 1 cale 2] copiaza un fisier din calea 1 in calea 2.
+     [mv cale 1 cale 2] muta un fisier din cale 1 in cale 2.
+     [del cale 1] sterge un fisier din cale 1.
+     [size cale 1] arata marimea unui fisier din calea 1.
+     [cat cale 1 cale 2... cale n] afiseaza continuturile fisierelor din calea 1 calea 2... calea n.
+     [cut cale1 linie1 linie2..linie n] afisieaza linia 1, linia 2... linia n din fisierul din calea 1.
+     [grep] cu urmatoarele subcomenzi:
+           [grep -l sir cale1 cale2... cale n] afiseaza fisierele din calea 1 calea 2... 
+           calea n care contin sirul 'sir'.
+           [grep -n sir cale1 cale2... cale n] afiseaza linia si fisierele din calea 1 calea 2... 
+           calea n care contin sirul 'sir'.
+           [grep -y sir cale1 cale2... cale n] afiseaza fisierele din calea 1 calea 2...
+           calea n care contin sirul 'sir', 
+           dar nu face distinctie intre literele mari si mici.
+     [find] cu urmatoarele subcomenzi: 
+     [arg] poate fi -r va cauta recursiv in toate fisierele
+     sau -d:X unde X este adancimea maxima la care se va cauta
+            [find arg partitie a nume] va cauta recursiv intr-o partitie toate 
+            fisierele care au acelasi nume si extensie cu 'nume'.
+            [find arg  partitie b extensie] va cauta recursiv intr-o partitie toate
+            fisierele care au doar extensia de tipul 'exensie'.
+            [find arg  partitie c nume] va cauta recursiv intr-o partitie toate
+            fisierele care au doar numele la fel cu 'nume',dar nu si extensia.
+                                      
