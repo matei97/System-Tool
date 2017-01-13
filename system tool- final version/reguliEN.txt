@@ -1,0 +1,27 @@
+These are the following commands :
+     [lf path] shows all files from path.
+     [run path] runs the file from path.
+     [clear] clear the screen.
+     [cp path 1 path 2] copy a file from path 1 to path 2.
+     [mv path 1 path 2] move a file from path 1 to path 2.
+     [del path 1]  delete a file from path 1.
+     [size path 1] shows the size of the file from path 1.
+     [cat path 1 path 2... path n] shows content from path 1 ,2..n.
+     [cut path line1 line2..line n]  shows line 1, 2..n from from pa.h 
+     [grep] with the commands :
+           [grep -l sir path 1 path 2... path n] shows files from path 1, path 2...
+	   path n which cotains 'sir'
+           [grep -n sir path 1 path 2... path n] shows line and files from path 1, path 2...
+	   path n which cotains 'sir'
+           [grep -y sir path 1 path 2... path n] shows files from path 1, path 2...
+	   path n which cotains 'sir' without upper/lower case sensitive.
+     [find] with the commands:
+     [arg] could be -r will search recursively in all folders and sub folders
+      or -d:X, X is the limit where is searching.
+            [find arg partition name.ext]  will search recursively
+            in a partition all files type name.ext and show them.
+            [find arg partition *.ext] will search recursively
+            in a partition only files with the extension 'ext' and show them.
+            [find arg  partition  name.*] will search recursively
+            in a partition all files with name 'name' but with all extensions and shows them.
+                                      
